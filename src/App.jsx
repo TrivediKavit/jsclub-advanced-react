@@ -1,9 +1,7 @@
-import UsersPageAxios from "./pages/UsersPageAxios"
-
 function App() {
   return (
     <>
-      <UsersPageAxios />
+      <h1>Application is working.</h1>
     </>
   )
 }
