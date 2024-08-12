@@ -1,7 +1,9 @@
+import FormPageWithContext from "./pages/FormPageWithContext"
+
 function App() {
   return (
     <>
-      <h1>Application is working.</h1>
+      <FormPageWithContext />
     </>
   )
 }
