@@ -1,0 +1,33 @@
+body {
+	font-size: 21px;
+}
+
+button {
+	padding: 10px 20px;
+}
+
+button + button {
+	margin-left: 10px;
+}
+
+input:not([type="submit"]) {
+	font-size: 18px;
+	padding: 5px 10px;
+	border-radius: 0;
+	border: 1px solid gray;
+}
+
+.fullscreen {
+	height: 100vh;
+	width: calc(25vw - 21px);
+	display: flex;
+	padding: 25px 37.5%;
+}
+
+.input-field-container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+}

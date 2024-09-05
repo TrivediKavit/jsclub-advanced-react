@@ -1,7 +1,15 @@
+import ForwardRefForm from "./pages/ForwardRefForm"
+import UseRefForm from "./pages/UseRefForm"
+import UseRefTimer from "./pages/UseRefTimer"
+import UseRefvsUseState from "./pages/UseRefvsUseState"
+
 function App() {
   return (
     <>
-      <h1>Application is working.</h1>
+      {/* <UseRefForm /> */}
+      {/* <UseRefvsUseState /> */}
+      {/* <UseRefTimer /> */}
+      <ForwardRefForm />
     </>
   )
 }
